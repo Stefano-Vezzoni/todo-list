@@ -1,0 +1,141 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0 auto 0 auto;
+    width: 70%;
+    max-width: 40rem;
+}
+
+@media (max-width: 425px) {
+    .content {
+        width: 90%;
+    }
+}
+
+.contentForm {
+    display: flex;
+
+    height: 3.37rem;
+    margin-top: -1.68rem;
+}
+
+.contentForm button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+
+    border-radius: 8px;
+    border: none;
+
+    height: 3.25rem;
+    width: 5.62rem;
+    padding: 1rem;
+
+    transition: 0.1s;
+}
+
+.contentForm button:not(:disabled):hover {
+    background-color: var(--blue);
+}
+
+.contentForm button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.contentForm img {
+    margin-left: 0.5rem;
+}
+
+.contentForm input {
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+
+    border: 0.5px solid var(--gray-400);
+    border-radius: 0.5rem;
+
+    margin-right: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.contentForm input:focus {
+    outline: var(--purple-dark);
+    border-color: var(--purple-dark);
+}
+
+.contentBody {
+    margin-top: 4rem;
+}
+
+.taskCountBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskCountBar span {
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 0.875rem;
+
+    border: none;
+}
+
+.taskCountBar span span {
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    font-weight: normal;
+    font-size: 0.75rem;
+
+    border-radius: 62rem;
+
+    width: 1.562rem;
+    margin-left: 0.5rem;
+    padding: 2px 8px;
+}
+
+.taskCreatedCount {
+    color: var(--blue);
+}
+
+.taskCreatedCount span {
+    background-color: var(--gray-400);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.taskDoneCount {
+    color: var(--purple);
+}
+
+.emptyTodoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid;
+    border-radius: 8px;
+    border-color: var(--gray-400);
+
+    margin-top: 1.5rem;
+    padding: 4rem 1.5rem;
+}
+
+.emptyTodoList img {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+    margin-top: 1.5rem;
+}
