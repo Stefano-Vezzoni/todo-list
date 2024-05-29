@@ -1,3 +1,5 @@
+<h1 align="center">Todo List</h1>
+
 <p align="center">
   <img
     src="https://img.shields.io/badge/React-%5E18.2.0-blue"
@@ -12,6 +14,10 @@
     src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033"
   />
 </p>
+
+<br>
+<h3 align="center">Página Home da aplicação</h3>
+<img src="public/readmeAssets/todo-list.png">
 
 ## 💻 Projeto
 
